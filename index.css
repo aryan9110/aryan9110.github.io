@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    background-color: rgb(255, 255, 255);
+}
+
+/*"Top Of The Page"*/
+.container {
+    display: flex;
+}
+
+/*"Sidebar Of The Page"*/
+.sidebar {
+    background: rgb(255, 255, 255);
+    color: black;
+    width: 60px;
+    font-family: 'fira sans', sans-serif;
+}
+
+.sidebar nav {
+    padding: 08px;
+    height: 88vh;
+}
+
+/*"Sidebar Icons List Of The Page"*/
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.sidebar nav li :hover {
+    color: rgb(1, 126, 131);
+}
+
+.sidebar li {
+    list-style: none;
+    font-size: 25px;
+    margin-top: 60px;
+    margin-bottom: 3px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+/*"First Image and Text Of The Page"*/
+.main {
+    width: 90vw;
+    margin-right: 10px;
+}
+
+/*"First-Image"*/
+.first-img {
+    margin-top: 4px;
+    width: 103.30%;
+    height: 97.30vh;
+    display: block;
+}
+
+/*"Text"*/
+.One-text {
+    position: absolute;
+    top: 120px;
+    left: 700px;
+    color: white;
+    text-align: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: MV Boli;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: Harrington;
+}
+
+/*"Icons"*/
+.facebook {
+    padding: 10px;
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(63, 111, 194);
+}
+
+.facebook:hover {
+
+    color: rgb(6, 55, 140);
+}
+
+.mail {
+    padding: 10px;
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(154, 96, 202)
+}
+
+.mail:hover {
+    color: rgb(113, 3, 197);
+}
+
+.whatsapp {
+    padding: 10px;
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(42, 153, 22);
+}
+
+.whatsapp:hover {
+    color: rgb(3, 92, 12);
+}
+
+.instagram {
+    padding: 10px;
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(231, 111, 167);
+}
+
+.instagram:hover {
+    color: rgb(173, 6, 84);
+}
+
+.search {
+    padding: 10px;
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(235, 186, 133);
+}
+
+.search:hover {
+    color: rgb(178, 92, 0);
+}
+
+/*"Second-Image"*/
+.second-img {
+    width: 80.70%;
+    height: 45.30vh;
+    display: block;
+    padding-top: 60px;
+    margin-left: 100px;
+}
+.sign-in {
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button{
+    padding-left: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 40px;
+    background-color: rgb(197, 197, 197);
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    border: none;
+    font-style: bold;
+    cursor:pointer;
+    background-color: rgb(70, 180, 138);
+    border: 1px double steelblue;
+}
+
+button:hover{
+    background-color: steelblue;
+    border: 2px solid rgb(70, 180, 138);
+}
+
+/*"Second Text"*/
+.Two-text {
+    position: absolute;
+    top: 580px;
+    left: 200px;
+    color: black;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.h12 {
+    font-size: 50px;
+    font-family: MV Boli;
+}
+
+.h13 {
+    font-size: 25px;
+    font-family: Comic Sans MS;
+}
+
+/*"First heading-Paragraph"*/
+.first-contain {
+    background-color: rgb(164, 201, 215);
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    padding-top: 50px;
+}
+
+.first-contain:hover {
+    background-color: rgb(82, 150, 175);
+    transition: .3s;
+}
+
+/*"First Heading"*/
+.h111 {
+    text-align: left;
+    font-style: oblique;
+    font-family: Copperplate Gothic Bold;
+    font-size: 40px;
+    margin-left: 70px;
+}
+
+/*"First Paragraph"*/
+.p1 {
+    font-family: Microsoft JhengHei UI Light;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 70px;
+    font-style: bold;
+}
+
+/*"Second heading-Paragraph"*/
+.second-contain {
+    background-color: rgb(191, 236, 203);
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    padding-top: 50px;
+}
+
+.second-contain:hover {
+    background-color: rgb(113, 198, 136);
+    transition: .3s;
+}
+
+/*"Second Heading"*/
+.h222 {
+    text-align: right;
+    font-style: oblique;
+    font-family: Copperplate Gothic Bold;
+    font-size: 40px;
+    margin-right: 70px;
+}
+
+/*"Second Paragraph"*/
+.p2 {
+    font-family: Microsoft JhengHei UI Light;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 70px;
+    font-style: bold;
+}
+
+/*Third heading-Paragraph"*/
+.third-contain {
+    background-color: rgb(199, 207, 148);
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.third-contain:hover {
+    background-color: rgb(170, 185, 35);
+    transition: .3s;
+}
+
+/*"Third Heading"*/
+.h333 {
+    text-align: left;
+    font-style: oblique;
+    font-family: Copperplate Gothic Bold;
+    font-size: 40px;
+    margin-left: 70px;
+}
+
+/*"Third Paragraph"*/
+.p3 {
+    font-family: Microsoft JhengHei UI Light;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 70px;
+    font-style: bold;
+}
+
+/*"Bottom Of The Page"*/
+.bottom {
+    background-color: rgb(4, 77, 81);
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+}
+
+/*"Bottom Logo Of The Page"*/
+.bottom-logo {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 70px;
+    text-align: center;
+}
+
+/*"Bottom Text Of The Page"*/
+.bottom-text {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: left;
+    margin-left: 20px;
+    font-family: Freestyle Script;
+}
+
+/*"Bottom Icon Of The Page"*/
+.bottom-icon {
+    text-align: center;
+    font-size: 30px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.house {
+    padding: 10px;
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(93, 185, 235);
+}
+
+.house:hover {
+
+    color: rgb(44, 113, 150);
+    transition: .3s;
+}
+
+.privacy-policy {
+    padding: 10px;
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(149, 96, 202)
+}
+
+.privacy-policy:hover {
+    color: rgb(103, 7, 177);
+    transition: .3s;
+}
+
+.Disclaimer {
+    padding: 10px;
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(208, 69, 69);
+}
+
+.Disclaimer:hover {
+    color: rgb(172, 39, 39);
+    transition: .3s;
+}
+
+.term-condition {
+    padding: 10px;
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(238, 113, 36);
+}
+
+.term-condition:hover {
+    color: rgb(163, 51, 17);
+    transition: .3s;
+}
+
+.contact {
+    padding: 10px;
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(16, 208, 89);
+}
+
+.contact:hover {
+    color: rgb(23, 91, 54);
+    transition: .3s;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Aryan Gupta | Sign-in</title>
+</head>
+<style>
+     @import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+ * {
+    box-sizing: border-box; 
+ }
+ body{
+    background-color: rgb(70, 180, 138);
+    color: #fff;
+    font-family: 'Muli',sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+ }
+ .container{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px 40px;
+    border-radius: 10px;
+ }
+
+ .btn{
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background: lightblue;
+    padding: 15px;
+    font-family: inherit;
+    font-size: 17px;
+    margin-top: 30px;
+    border: 0;
+    border-radius: 3px;
+
+
+ }
+ .btn:focus{
+    outline: 0;
+ }
+ .btn:active{
+    transform: scale(1.036);
+ }
+ .container h1{
+    text-align: center;
+    margin-bottom: 30px;
+ }
+.container a{
+    text-decoration: none;
+    color: lightblue;
+}
+
+.form-control{
+    position: relative;
+    margin: 20px 0 40px;
+    width: 300px;
+}
+.form-control input{
+    background-color:  transparent;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #fff;
+
+}
+.form-control input:focus, 
+.form-control input:valid{
+    outline: 0;
+    border-bottom: lightblue;
+}
+
+.form-control label span{
+    display: inline-block;
+    font-size: 18px;
+    min-width: 5px;
+    transition: 0.3s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+.form-control input:focus + label span,
+.form-control input:valid + label span{
+    color: lightblue;
+    transform:  translateY(-30px);
+}
+
+input::placeholder{
+    color: white;
+}
+
+.title{
+    font-size: 10px;
+}
+</style>
+<body>
+    <div class="container">
+        <h1>Sign-up</h1>
+        <form action="https://formspree.io/f/meqwjjyk" method="POST">
+            <div class="form-control">
+                <label class="title">Email</label>
+                <input type="text" placeholder="Email" required>
+                </div>
+                <div class="form-control">
+                    <label class="title">password</label>
+                    <input type="text" placeholder="Email" required>
+            </div>
+
+                <button class="btn">Login </button>
+
+                <p>
+                Don't have an account <a href="sign-in.html">Sign-in</a>
+                </p>
+        </form>
+    </div>
+</body>
+</html>
