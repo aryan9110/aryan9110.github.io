@@ -64,8 +64,8 @@ body {
 /*"Text"*/
 .One-text {
     position: absolute;
-    top: 120px;
-    left: 700px;
+    top: 20%;
+    left: 60%;
     color: white;
     text-align: right;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -175,8 +175,8 @@ button:hover{
 /*"Second Text"*/
 .Two-text {
     position: absolute;
-    top: 580px;
-    left: 200px;
+    top: 113%;
+    left: 20%;
     color: black;
     text-align: left;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
